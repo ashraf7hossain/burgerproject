@@ -191,6 +191,10 @@ burger category
     font-size: 20px;
 	color: #3d2514;
     border: none;
+    transition: 0.4s;
+}
+.taste-button:hover{
+    box-shadow: 10px 10px 15px 0 #000000Fc;
 }
 .gallery{
 	width: 100%;
