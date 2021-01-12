@@ -45,6 +45,9 @@ body{
 	display: flex;
 	justify-content: space-between;
 }
+.logo{
+	padding-top: 20px;
+}
 /***************************
 nav bar menu
 ****************************/
@@ -122,6 +125,7 @@ burger category
 	display: flex;
 	/*overflow: hidden;*/
 	border-radius: 20px;
+	margin-top: 30px;
 }
 .category .left-burger{
 	margin-right: 15px;
@@ -298,14 +302,19 @@ burger gallery
 .event-section:hover{
     box-shadow: 10px 10px 15px 0 #00002c;
 }
+.event-content{
+	width: 50%;
+}
 .event-content h3{
 	font-family: 'Bebas Neue' ,cursive;
 	font-weight: bold;
+	letter-spacing: 5px;
 }
 .event-content h1{
-	font-family: 'Alfa Slab One' ,cursive;
-	font-weight: 400;
-	color: #3d2514;
+	font-family: 'Alfa Slab One', cursive;
+    font-size: 42px;
+    color: #3d2514;
+    text-transform: uppercase;
 
 }
 .event-content p{
@@ -314,8 +323,11 @@ burger gallery
     color: #3d3d3d;
     line-height: 30px;
     padding: 25px 0 40px 0;
-}
 
+}
+.event-img{
+	width: 44%;
+}
 /*****************************
 form design starts
 ******************************/
@@ -443,15 +455,15 @@ footer section starts
 	text-transform: uppercase;
 	color: white;
 	font-family: 'Bebas Neue', sans-serif;
-	font-size: 30px;
+	font-size: 20px;
 }
 .social-icons{
 	text-align: right;
 	margin-top: 33px;
 }
 .social-icons i{
-	padding: 4px;
-	font-size: 30px;
+	padding: 15px;
+	font-size: 20px;
 	border-radius: 50%;
 	background-color: white;
 	/*background:transparent;*/
